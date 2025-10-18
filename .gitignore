@@ -1,0 +1,33 @@
+# === FRONTEND ===
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+
+# Optional: frontend environment/config files
+frontend/.env
+frontend/.env.local
+
+# === BACKEND ===
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.pyo
+backend/data.db
+*.sqlite3
+
+# Optional: backend virtual environment
+backend/venv/
+
+# === COMMON ===
+.env
+*.log
+*.tmp
+*.swp
+
+# === IDE / EDITOR ===
+.vscode/
+*.code-workspace
+
+# === OS GENERATED ===
+.DS_Store
+Thumbs.db
